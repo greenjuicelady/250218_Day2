@@ -1,5 +1,5 @@
 {
-  "name": "TextSplit._250218",
+  "name": "TextSplit._250218_2",
   "projectId": "8dbb9980-8fda-44c0-8074-a27484d89ba7",
   "description": "빈 라이브러리",
   "main": "NewActivity.xaml",
@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.157.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.5",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
