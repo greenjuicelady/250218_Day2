@@ -5,6 +5,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "TextSplit._250218": "[1.0.1]",
+    "TextSplit._250218_다시": "[1.0.2]",
     "UiPath.Credentials.Activities": "[2.1.0]",
     "UiPath.Excel.Activities": "[2.24.4]",
     "UiPath.System.Activities": "[24.10.7]",

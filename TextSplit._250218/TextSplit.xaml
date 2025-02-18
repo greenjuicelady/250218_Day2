@@ -110,21 +110,21 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="988,466.82399999999996" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="971,470" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,219" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,246" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b605c9b5-95b4-4d7f-a2a4-9d44f08de706" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="416,75" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b605c9b5-95b4-4d7f-a2a4-9d44f08de706" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -168,20 +168,20 @@
               <InArgument x:TypeArguments="x:String">[in_text.Split(vbNewLine.ToArray, StringSplitOptions.RemoveEmptyEntries)(0).Split(": ")(1)]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
-          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
-            <ui:AssignOperation.To>
-              <OutArgument x:TypeArguments="x:String">[out_Country]</OutArgument>
-            </ui:AssignOperation.To>
-            <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:String">[in_text.Split(vbNewLine.ToArray, StringSplitOptions.RemoveEmptyEntries)(1).Split(": ")(1)]</InArgument>
-            </ui:AssignOperation.Value>
-          </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
             <ui:AssignOperation.To>
               <OutArgument x:TypeArguments="x:String">[out_Name]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
               <InArgument x:TypeArguments="x:String">[in_text.Split(vbNewLine.ToArray, StringSplitOptions.RemoveEmptyEntries)(2).Split(": ")(1)]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[out_Country]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">[in_text.Split(vbNewLine.ToArray, StringSplitOptions.RemoveEmptyEntries)(1).Split(": ")(1)]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
         </scg:List>
