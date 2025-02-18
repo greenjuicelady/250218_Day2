@@ -4,6 +4,7 @@
   "description": "빈 프로세스",
   "main": "Main.xaml",
   "dependencies": {
+    "TextSplit._250218": "[1.0.1]",
     "UiPath.Credentials.Activities": "[2.1.0]",
     "UiPath.Excel.Activities": "[2.24.4]",
     "UiPath.System.Activities": "[24.10.7]",
